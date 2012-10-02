@@ -1,0 +1,43 @@
+ /* Flickr Page Specific styling*/
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .flickrImageList {
+        list-style: none;
+      }
+      .flickrImageList li {
+        float: left;
+        margin: 5px;
+      }
+      .flickrImageList li img {
+        border-radius: 5px;
+        cursor: pointer; 
+        display: block;        
+        -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+         transition: all 0.4s ease-in-out;
+      }
+      .flickrImageList li img:hover {
+        display: block;
+        cursor: pointer;
+        border-radius: 5px; 
+        /* CSS3 2D transitions effects on mouse hover */
+        -moz-transform: scale(1.25) ;
+        -ms-transform: scale(1.25) ;
+        -webkit-transform: scale(2.25) ;
+        -o-transform: scale(1.25) ;
+        transform: scale(1.25) ;
+        -moz-transform: rotate(25deg) ;
+        -ms-transform: rotate(25deg) ;
+        -webkit-transform: rotate(25deg) ;
+        -o-transform: rotate(25deg) ;
+        transform: rotate(25deg) ;
+        -moz-transform: skew(0deg,30deg);
+        -ms-transform: skew(0deg,30deg);
+        -webkit-transform: skew(0deg,30deg);
+        -o-transform: skew(0deg,30deg);
+        transform: skew(0deg,30deg);
+      }
